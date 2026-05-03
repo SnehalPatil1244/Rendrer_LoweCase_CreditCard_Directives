@@ -1,7 +1,9 @@
-import { ElementRef, HostListener, OnInit, Renderer2 } from "@angular/core";
+import { Directive, ElementRef, HostListener, OnInit, Renderer2 } from "@angular/core";
 
 
-
+@Directive({
+    selector : '[pancard]'
+})
 export  class PanCardDirective implements OnInit {
     constructor(
         private _eleref : ElementRef,
