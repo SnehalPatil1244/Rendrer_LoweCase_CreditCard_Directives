@@ -6,6 +6,8 @@ import { cssHighlighterDirective } from './Shared/Directives/cssHighLighter.dire
 import { cssHighlighterWithRendrerDirective } from './Shared/Directives/cssHighlighterWithRendrer.directive';
 import { LowerCaseDirective } from './lower-case.directive';
 import { CreditCardDirective } from './credit-card.directive';
+import { AdharCardDirective } from './Shared/Directives/Adhar-card.directive';
+import { PanCardDirective } from './Shared/Directives/PAN-Card.directive';
 
 @NgModule({
   declarations: [
@@ -13,7 +15,9 @@ import { CreditCardDirective } from './credit-card.directive';
     cssHighlighterDirective,
     cssHighlighterWithRendrerDirective,
     LowerCaseDirective,
-    CreditCardDirective
+    CreditCardDirective,
+    AdharCardDirective,
+    PanCardDirective
   ],
   imports: [
     BrowserModule
